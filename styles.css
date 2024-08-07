@@ -112,7 +112,7 @@ main{
 }
 
 .share-icon{
-    background-color: var(--GrayishBlue);
+    background-color: var(--LightGrayishBlue);
     border-radius: 50%;
     height: 1.5rem;
     width: 1.5rem;
@@ -122,6 +122,12 @@ main{
 
 .close-btn{
     position: relative;
+    
+    background-color: var(--LightGrayishBlue);
+}
+
+#first-icon{
+    background-color: var(--LightGrayishBlue);
 }
 
 button{

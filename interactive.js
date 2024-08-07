@@ -13,9 +13,11 @@ const displayMedia = ()=>{
     if (width<375){
         profileInformation.style.visibility = 'hidden';
         socialMedia.style.visibility = 'visible';
+        closeBtn.style.backgroundColor = ' hsl(212, 23%, 69%)';
     } else if( width > 376){
         profileInformation.style.visibility = 'visible';
         socialMedia.style.visibility = 'visible';
+        closeBtn.style.backgroundColor = ' hsl(210, 46%, 95%)'
     }
 }
 
